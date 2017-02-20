@@ -1,0 +1,497 @@
+{
+	"bike": {
+		"steering": {
+			"wheelie": {
+				"nosieTorque": 1.3563127992606555e-19,
+				"nosieAngleDeg": 1.2187548939212493e-32,
+				"wheelieTorque": 9.011510140084525e-33,
+				"wheelieAngleDeg": 7.334348397353276e+31,
+				"minSpeed": 8.435930707491996e+26,
+				"deadZone": 7.360414816436547e+22,
+				"inputReactiveness": 15327416320,
+				"maxLeanAngleDeg": 1.8619821802902636e+25
+			},
+			"landSteering": {
+				"wheelDriftAligningStrength": 5.4673984090092276e-11,
+				"steerInputPowerOrbis": 4.577915563461352e+30,
+				"steerInputPowerDurango": 6.126212315216151e-10,
+				"steerInputPowerPc": 1.7864844990668898e+25,
+				"steerInSpeedFactor": 5.535340588669335e-11,
+				"countersteerSpeedFactor": 7.315397697878323e+34,
+				"steerCurveFalloff": 1.6930770514641766e+22,
+				"steerAngleMaxSpeedDeg": 1.2088866697608868e+33,
+				"steerAngleMinSpeedDeg": 3.0383422608794325e+29,
+				"maxSpeedKmph": 7.567061944906487e+23,
+				"minSpeedKmph": 1.92046195944681e+31,
+				"maxSpeedTToFullSteerS": 272451522276009970000,
+				"tToFullSteerS": 7.213767704650184e+22,
+				"saturationZone": 1.8041536695280439e+28,
+				"deadZone": 3.035349864222117e+32
+			}
+		},
+		"brakes": {
+			"handbrakeFrictionFactor": 1.3563156426940112e-19,
+			"rear": {
+				"minTimeToBlock": 1.3563156426940112e-19,
+				"maxBrakeTorque": 1.3563156426940112e-19,
+				"handbrake": 171649384
+			},
+			"front": {
+				"minTimeToBlock": 7.334348397353276e+31,
+				"maxBrakeTorque": 8.435930707491996e+26,
+				"handbrake": 1702453612
+			}
+		},
+		"engineTransmission": {
+			"targetCruiseRpm": 1.6113850563808628e-19,
+			"decayTimeToCruiseRpm": 2.0846439158285473e+29,
+			"clutchDelay": 7.5261011046434655e+28,
+			"reverseGearRatio": 4.5452035419398547e+30,
+			"reverseUsesForwardGears": 1817207909,
+			"finalDrive": 7.398725631529067e+31,
+			"lowGearsFinalDrive": 1.3181131354162702e+25,
+			"topSpeed": 4.611422575863585e+24,
+			"lowGearForwardRatioPct": 4.861730544660455e+30,
+			"forwardRatioPercentage": 3.171612052055701e+30,
+			"manualClutchBlendTime": 1.3563156426940112e-19,
+			"manualClutchBlendRpm": 1.1729793317277581e-19,
+			"manualClutch": 695362937,
+			"sequential": 1634496552,
+			"nitrousGears": 1713401458,
+			"gears": 1970562418
+		},
+		"engine": {
+			"engineMaxDamageTorque": 1.3563156426940112e-19,
+			"engineDamageNoiseScale": 1.3563156426940112e-19,
+			"engineMinNoise": 1.3563156426940112e-19,
+			"clutchSlipRpm": 1.2091259054148855e-32,
+			"torqueFactorAtOptimalRpm": 1.1434441577975854e+27,
+			"torqueFactorAtMinRpm": 1.6029184750704704e-19,
+			"torqueFactorAtMaxRpm": 2.0531744667271922e-19,
+			"optimalRpm": 264506222555282000000,
+			"minRpm": 1.8492488542240086e+31,
+			"maxRpm": 8.903990859779418e-15,
+			"revLimiterRpmDrop": 1.3563156426940112e-19,
+			"resistanceAtOptimalRpm": 1.3563156426940112e-19,
+			"resistanceAtMaxRpm": 1.2091259054148855e-32,
+			"resistanceAtMinRpm": 4.5452035419398547e+30,
+			"topSpeedJumpMultiplier": 1819289714
+		},
+		"landGlobal": {
+			"arcade": {
+				"turboJumpUpgraded": {
+					"topSpeedJumpMultiplier": 6.740601063040167e+22,
+					"topSpeedKph": 63808640,
+					"punchSpeedKph": 1.3563127992606555e-19,
+					"punchDelayTime": 1.2187548939212493e-32,
+					"rMultiplier": 1.3555912134231737e-19,
+					"fMultiplier": 5.0689849859881717e-14
+				},
+				"turboJump": {
+					"topSpeedJumpMultiplier": 4.743124948118248e+30,
+					"topSpeedKph": 7.029874923225541e+22,
+					"punchSpeedKph": 7.360414816436547e+22,
+					"punchDelayTime": 1.9836653644306863e+29,
+					"rMultiplier": 0.03915813937783241,
+					"fMultiplier": 2.9308642618888356e+26
+				},
+				"nitroBoostUpgraded": {
+					"extraTopSpeed": 7.270939270973833e+31,
+					"boostBlendTime": 1.983713721463471e+29,
+					"pushForce": 2.0342156163344475e-19,
+					"gripMultiplier": 4.6316350653384604e+27,
+					"torqueMultiplier": 1.92046195944681e+31
+				},
+				"nitroBoost": {
+					"extraTopSpeed": 272594687486039430000,
+					"boostBlendTime": 1.8492488542240086e+31,
+					"pushForce": 2.0197254799540498e-19,
+					"gripMultiplier": 7.271427677004958e+31,
+					"torqueMultiplier": 1.3563156426940112e-19
+				},
+				"heatBoost": {
+					"extraTopSpeed": 1.3563127992606555e-19,
+					"boostBlendTime": 8.316081081698488e+35,
+					"pushForce": 7.360414816436547e+22,
+					"gripMultiplier": 2.0852710460974724e+29,
+					"torqueMultiplier": 7.315397697878323e+34
+				}
+			},
+			"drift": {
+				"maxKeepVelocityAccelerationG": 1.7858561692357124e+31,
+				"keepVelocityStrength": 1.3563127992606555e-19,
+				"minSpeedToDriftKmph": 1.547293682069295e-10,
+				"steeringSensitivity": 6.860855279570289e+22,
+				"counterSteerRotFactor": 1.9684046098118458e-19,
+				"velocityRotationAngleExp": 4.735216153326459e+22,
+				"velocityRotationAmount": 2.0621409753202963e-19,
+				"velocityRotationEndAngle": 6.917809601897867e+22,
+				"velocityRotationStartAngle": 1.7643828381711143e-19,
+				"exitDriftYawVelDamp": 202.1265411376953,
+				"overdriftYawVelDamp": 4.465282664930951e+30,
+				"driftYawVelDamp": 7.02923070383526e+28,
+				"counterSteerTorqueBrake": 5.085628381710072e+31,
+				"counterSteerTorqueHandbrake": 3.253380080674317e+33,
+				"counterSteerTorque": 1.7789872811067324e+25,
+				"maxDriftTorque": 3.252880571868465e+33,
+				"constantDriftTorque": 7.271868643442891e+22,
+				"driftLimitSpreadAngleDeg": 1.943646964831163e-19,
+				"maxDriftAngleDeg": 1.1289181584962783e+27,
+				"driftExitSlipAngle": 2.0338080154074596e+32,
+				"driftEntrySlipAngle": 6.2608510594948606e+22
+			},
+			"rearWheelsDamage": {
+				"brokenWheelRadiusFraction": 3396.95654296875,
+				"brokenWheelFrictionFraction": 1.441515245786973e-19,
+				"skewHealth": 1.3563127992606555e-19
+			},
+			"frontWheelsDamage": {
+				"brokenWheelRadiusFraction": 1.2187548939212493e-32,
+				"brokenWheelFrictionFraction": 1.3555912134231737e-19,
+				"skewHealth": 5.62051490418658e-14
+			},
+			"takeoffPitchDamping": 1.3563156426940112e-19,
+			"gravityMultiplierInAirDown": 1.3555997437232407e-19,
+			"gravityMultiplierInAirUp": 1.3563156426940112e-19,
+			"gravityMultiplierGrounded": 1.3563156426940112e-19,
+			"linearDampingZ": 1.3563156426940112e-19,
+			"linearDampingY": 9.011517486924218e-33,
+			"linearDampingX": 3.0350543060377375e+32
+		},
+		"pmGravityFactor": 2.954678014903845e+21,
+		"pmAngularDamping": 1.0646621208374611e+24,
+		"pmLinearDamping": 6.998714517403764e+22,
+		"pmMass": 2.084595747690422e+29,
+		"dragCoefficient": 7.177449776535143e+22,
+		"topSpeed": 267924454672456220000,
+		"topSpeedKph": 4.360553520347432e+27
+	},
+	"plane": {
+		"engine": {
+			"taxiingTopSpeed": 6.772076270475897e+22,
+			"taxiingInputThreshold": 1.3563156426940112e-19,
+			"taxiingMaxThrust": 1.3563156426940112e-19,
+			"maxThrustAcceleration": 1.3563156426940112e-19,
+			"runThrust": 1.3563156426940112e-19,
+			"maxThrust": 1.2091259054148855e-32,
+			"minThrust": 5.0689849859881717e-14
+		},
+		"airSteering": {
+			"yawAxisTiming": {
+				"counterInputTimeFactor": 4.743124948118248e+30,
+				"centeringInputTimeFactor": 7.029874022505615e+22,
+				"timeToMaxInputAtMaxSpeedS": 1.6029148561552905e-19,
+				"timeToMaxInputAtMinSpeedS": 1.9336643165543257e-19
+			},
+			"pitchAxisTiming": {
+				"counterInputTimeFactor": 4.743124948118248e+30,
+				"centeringInputTimeFactor": 7.029869068546025e+22,
+				"timeToMaxInputAtMaxSpeedS": 1.8109049536950523e+22,
+				"timeToMaxInputAtMinSpeedS": 1.8588875443468249e+34
+			},
+			"rollAxisTiming": {
+				"counterInputTimeFactor": 5.556462018605325e-16,
+				"centeringInputTimeFactor": 4.2319700823952253e+21,
+				"timeToMaxInputAtMaxSpeedS": 5.172297033074775e+28,
+				"timeToMaxInputAtMinSpeedS": 0.046173471957445145
+			},
+			"referenceMaxSpeedKPH": 1.8109049536950523e+22,
+			"referenceMinSpeedKPH": 1.8588954671630763e+34,
+			"pitchReturn": 7.100803834722929e+28,
+			"rollReturn": 5.32815389180493e+31,
+			"accelerationSmoothing": 3.326409298055941e+36,
+			"maxSteeringAngle": 2.085319403130257e+29
+		}
+	},
+	"helicopter": {
+		"steering": {
+			"airSteering": {
+				"yawAxisTiming": {
+					"counterInputTimeFactor": 1.8109049536950523e+22,
+					"centeringInputTimeFactor": 1.804152370877261e+28,
+					"timeToMaxInputAtMaxSpeedS": 1.8109049536950523e+22,
+					"timeToMaxInputAtMinSpeedS": 1.858918492847807e+34
+				},
+				"pitchAxisTiming": {
+					"counterInputTimeFactor": 5.763639395361031e-16,
+					"centeringInputTimeFactor": 7.316175124222995e+34,
+					"timeToMaxInputAtMaxSpeedS": 192683079580768000000,
+					"timeToMaxInputAtMinSpeedS": 0.046173471957445145
+				},
+				"rollAxisTiming": {
+					"counterInputTimeFactor": 1.8109049536950523e+22,
+					"centeringInputTimeFactor": 1.8588954671630763e+34,
+					"timeToMaxInputAtMaxSpeedS": 7.100803834722929e+28,
+					"timeToMaxInputAtMinSpeedS": 5.329099755366196e+31
+				},
+				"referenceMaxSpeedKPH": 2.752259980404988e+23,
+				"referenceMinSpeedKPH": 1.3563156426940112e-19,
+				"pitchReturn": 1.3563156426940112e-19,
+				"rollReturn": 1.3555994852292993e-19,
+				"accelerationSmoothing": 1.6113850563808628e-19,
+				"maxSteeringAngle": 2.084787097980308e+29
+			},
+			"returnRollLimit": 227640899497720020000,
+			"returnPitchLimit": 2.059553395383788e+23
+		},
+		"model": {
+			"altitudeLimitThresholdHigh": 7.360414816436547e+22,
+			"altitudeLimitThresholdLow": 2.159596561066017e+29,
+			"highSpeedAltitudeD": 4.6114000938942454e+24,
+			"highSpeedAltitudeI": 1.3563156426940112e-19,
+			"highSpeedAltitudeP": 1.3555994852292993e-19,
+			"lowSpeedAltitudeD": 1.432847426943183e-19,
+			"lowSpeedAltitudeI": 7.316175124222995e+34,
+			"lowSpeedAltitudeP": 184742723264318540000,
+			"yawMaxAmplitude": 6.74291005856912e+22,
+			"yawD": 4.5820793544770543e+21,
+			"yawI": 3.4455457150611712e-12,
+			"yawP": 1.1576055018620433e+27,
+			"pitchMaxAmplitude": 3.2600244118802246e-12,
+			"pitchD": 1.9283833249872528e+31,
+			"pitchI": 1.2734470358907127e-14,
+			"pitchP": 1.92837945642463e+31,
+			"rollMaxAmplitude": 1.7590541104652103e+22,
+			"rollD": 1.3563156426940112e-19,
+			"rollI": 6.667991705039426e-33,
+			"rollP": 1.3563127992606555e-19,
+			"counterPitchSpeedKmph": 0.0035012629814445972,
+			"counterPitchAngleDeg": 5.084274868362431e+31,
+			"maxPitchHighSpeedDeg": 3.0980907931225424e+32,
+			"maxPitchLowSpeedDeg": 1.3563156426940112e-19,
+			"addBankRollPullUpDeg": 1.3563156426940112e-19,
+			"addBankRollDeg": 9.024114378261217e-33,
+			"maxRollDeg": 3.0186047909094707e+32,
+			"addLateralFactorPullUp": 1.9435571381865185e-19,
+			"addRightForce": 1.2082579509634347e+33,
+			"addForwardForce": 3.035349864222117e+32,
+			"tailDistanceToComM": 5.511455528073306e-11,
+			"verticalDragNoInput": 272594441195434800000,
+			"lateralDragNoInput": 1.3563156426940112e-19,
+			"forwardDragNoInput": 1.3563127992606555e-19,
+			"yawDragNoInput": 9.01152556844788e-33,
+			"highSpeedMaxDragYawSpeed": 1.3563156426940112e-19,
+			"lowSpeedMaxDragYawSpeed": 1.3563156426940112e-19,
+			"angularDrag": 9.02258403155324e-33,
+			"tailVerticalDrag": 2.9308642618888356e+26,
+			"tailLateralDrag": 7.270939270973833e+31,
+			"verticalDrag": 4.5452035419398547e+30,
+			"lateralDrag": 1.1611777507454053e+27,
+			"forwardDrag": 0.039337530732154846,
+			"trimInputGain": 964390.9375,
+			"addForceLateralPower": 4.9569440310560286e+33,
+			"addForceForwardPower": 5.459848545497081e-11,
+			"maxClimbingGs": 4.861730544660455e+30,
+			"maxDivingGs": 3.171612052055701e+30,
+			"unsettledAltitudeGainDive": 1.3563156426940112e-19,
+			"unsettledAltitudeGainClimb": 1.3563156426940112e-19,
+			"minAltitudeInput": 1.1729793317277581e-19,
+			"diveSpeedLowSpeedKmph": 0.1846940517425537,
+			"climbSpeedLowSpeedKmph": 1.3455697737670483e-14,
+			"maxRollInputForClimb": 1.1286489836067548e+27,
+			"addClimbPitchDeg": 1.92046195944681e+31,
+			"addDivePitchDeg": 272451522276009970000,
+			"maxSpeedDiveKmph": 7.213767704650184e+22,
+			"minSpeedDiveKmph": 1.80415402370553e+28,
+			"bankMaxVelocityKmph": 1.7563698434901075e+25,
+			"bankStartVelocityKmph": 0.03917259722948074,
+			"maxSpeedTToFullYawS": 7.360414816436547e+22,
+			"tToFullYawS": 15327416320,
+			"pitchInputDeadZone": 1.8619821802902636e+25,
+			"rollInputPower": 5.534542268925691e-11,
+			"pitchInputPower": 5.074579283289122e+31,
+			"yawInputPower": 1.3563156426940112e-19,
+			"altitudeInputPower": 1.1692524953272946e-19,
+			"centerOfTorquesZ": 1.3563156426940112e-19,
+			"centerOfTorquesY": 1.3563156426940112e-19,
+			"centerOfTorquesX": 9.022802967376081e-33
+		}
+	},
+	"boat": {
+		"steering": {
+			"steeringfilter": {
+				"inputSpeedcurveFalloff": 1.0899623243614185e+27,
+				"zeroinputSpeedFactor": 1.8759341123043108e+28,
+				"counterinputSpeedFactor": 7.146283065673888e+22,
+				"inputMaxSpeedKmph": 1.3563156426940112e-19,
+				"inputStartSpeedKmph": 1.3563156426940112e-19,
+				"tToFullInputMaxSpeedS": 1.3555994852292993e-19,
+				"tToFullInputMinSpeedS": 1.4328569912190156e-19
+			},
+			"accelerationSmoothing": 7.360414816436547e+22
+		},
+		"fins": {
+			"pressureDrag2": 2.084594047638488e+29,
+			"pressureDrag": 7.398725631529067e+31,
+			"referenceSpeedMs": 997010.875
+		},
+		"propellers": {
+			"dockingControls": {
+				"dockingYawThrottleLimit": 1.8492488542240086e+31,
+				"maxDockingControlThrottle": 5.69634930304922e-19,
+				"maxDockingSpeedMs": 1.2098739822600178e+25,
+				"maxThrust": 1.3563156426940112e-19
+			},
+			"pitch": 1.1729793317277581e-19,
+			"diameter": 5.3822807891340876e-14,
+			"maxReverseRpm": 272594581932923160000,
+			"maxRpm": 7.213767704650184e+22,
+			"maxThrust": 1.55861953691353e+28
+		}
+	},
+	"car": {
+		"steering": {
+			"wheelDriftAligningStrength": 0.5,
+			"steerInputPowerOrbis": 2,
+			"steerInputPowerDurango": 3,
+			"steerInputPowerPc": 2,
+			"steerInSpeedFactor": 2,
+			"countersteerSpeedFactor": 3,
+			"steerCurveFalloff": 2,
+			"steerAngleMaxSpeedDeg": 20,
+			"steerAngleMinSpeedDeg": 30,
+			"maxSpeedKmph": 350,
+			"minSpeedKmph": 20,
+			"maxSpeedTToFullSteerS": 2,
+			"tToFullSteerS": 3,
+			"saturationZone": 1,
+			"deadZone": 0
+		},
+		"brakes": {
+			"handbrakeFrictionFactor": 1,
+			"rear": {
+				"minTimeToBlock": -1,
+				"maxBrakeTorque": 5000,
+				"handbrake": 1
+			},
+			"front": {
+				"minTimeToBlock": -1,
+				"maxBrakeTorque": 5000,
+				"handbrake": 0
+			}
+		},
+		"engineTransmission": {
+			"targetCruiseRpm": 1500,
+			"decayTimeToCruiseRpm": 5,
+			"clutchDelay": 0.20000000298023224,
+			"reverseGearRatio": 5.158999919891357,
+			"reverseUsesForwardGears": 0,
+			"finalDrive": 3.810000133514404,
+			"lowGearsFinalDrive": -1,
+			"topSpeed": 250,
+			"lowGearForwardRatioPct": 0,
+			"forwardRatioPercentage": 0,
+			"manualClutchBlendTime": 0,
+			"manualClutchBlendRpm": 5000,
+			"manualClutch": 0,
+			"sequential": 1,
+			"nitrousGears": 0,
+			"gears": 6
+		},
+		"engine": {
+			"engineMaxDamageTorque": 0.75,
+			"engineDamageNoiseScale": 1,
+			"engineMinNoise": 0,
+			"clutchSlipRpm": 0,
+			"torqueFactorAtOptimalRpm": 1200,
+			"torqueFactorAtMinRpm": 1,
+			"torqueFactorAtMaxRpm": 0.95,
+			"optimalRpm": 4600,
+			"minRpm": 500,
+			"maxRpm": 8350,
+			"revLimiterRpmDrop": 100,
+			"resistanceAtOptimalRpm": 0.10000000149011612,
+			"resistanceAtMaxRpm": 0.14000000298023224,
+			"resistanceAtMinRpm": 0.07500000298023224,
+			"topSpeedJumpMultiplier": 0
+		},
+		"landGlobal": {
+			"arcade": {
+				"turboJumpUpgraded": {
+					"topSpeedJumpMultiplier": 2,
+					"topSpeedKph": 250,
+					"punchSpeedKph": 80,
+					"punchDelayTime": 0.10000000149011612,
+					"rMultiplier": 25,
+					"fMultiplier": 30
+				},
+				"turboJump": {
+					"topSpeedJumpMultiplier": 2,
+					"topSpeedKph": 200,
+					"punchSpeedKph": 50,
+					"punchDelayTime": 0.10000000149011612,
+					"rMultiplier": 12,
+					"fMultiplier": 15
+				},
+				"nitroBoostUpgraded": {
+					"extraTopSpeed": 60,
+					"boostBlendTime": 0.20000000298023224,
+					"pushForce": 20000,
+					"gripMultiplier": 1.5,
+					"torqueMultiplier": 2
+				},
+				"nitroBoost": {
+					"extraTopSpeed": 30,
+					"boostBlendTime": 0.20000000298023224,
+					"pushForce": 15000,
+					"gripMultiplier": 1.2000000476837158,
+					"torqueMultiplier": 1.5
+				},
+				"heatBoost": {
+					"extraTopSpeed": 80,
+					"boostBlendTime": 0,
+					"pushForce": 0,
+					"gripMultiplier": 1.5,
+					"torqueMultiplier": 2
+				}
+			},
+			"drift": {
+				"maxKeepVelocityAccelerationG": 2,
+				"keepVelocityStrength": 1,
+				"minSpeedToDriftKmph": 10,
+				"steeringSensitivity": 2,
+				"counterSteerRotFactor": 0.6000000238418579,
+				"velocityRotationAngleExp": 2,
+				"velocityRotationAmount": 50,
+				"velocityRotationEndAngle": 45,
+				"velocityRotationStartAngle": 10,
+				"exitDriftYawVelDamp": 0.5,
+				"overdriftYawVelDamp": 0.10000000149011612,
+				"driftYawVelDamp": 0.019999999552965164,
+				"counterSteerTorqueBrake": 18000,
+				"counterSteerTorqueHandbrake": 36000,
+				"counterSteerTorque": 18000,
+				"maxDriftTorque": 12000,
+				"constantDriftTorque": 3000,
+				"driftLimitSpreadAngleDeg": 15,
+				"maxDriftAngleDeg": 45,
+				"driftExitSlipAngle": 180,
+				"driftEntrySlipAngle": 180
+			},
+			"rearWheelsDamage": {
+				"brokenWheelRadiusFraction": 0.75,
+				"brokenWheelFrictionFraction": 0.75,
+				"skewHealth": 200
+			},
+			"frontWheelsDamage": {
+				"brokenWheelRadiusFraction": 0.75,
+				"brokenWheelFrictionFraction": 0.75,
+				"skewHealth": 200
+			},
+			"takeoffPitchDamping": 0.5,
+			"gravityMultiplierInAirDown": 1,
+			"gravityMultiplierInAirUp": 1,
+			"gravityMultiplierGrounded": 1,
+			"linearDampingZ": 0,
+			"linearDampingY": 0,
+			"linearDampingX": 0
+		},
+		"pmGravityFactor": 4.7467241540403817e+27,
+		"pmAngularDamping": 1.7225339707269002e+22,
+		"pmLinearDamping": 1.8523599407626634e+28,
+		"pmMass": 7.317442869361222e+28,
+		"dragCoefficient": 1,
+		"topSpeed": 250,
+		"topSpeedKph": 350.2397003173828
+	}
+}
